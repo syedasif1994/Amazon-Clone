@@ -1,0 +1,202 @@
+/* ----------------- Header ----------------- */
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* ----------------- Section 01: Header_Brand  ----------------- */
+
+.header_logo {
+    width: 120px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 15px;
+}
+
+
+/* ----------------- Section 02: Header_Search  ----------------- */
+
+.header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.header_search>input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    height: 12px;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: orange;
+}
+
+/* ----------------- Section 03: Header_Nav ----------------- */
+
+.header_nav {
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.header_navMain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.nav_contentOne {
+    font-size: 10px;
+}
+
+.nav_contentTwo {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    outline-style: none;
+}
+
+.header_navIcon{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.nav_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* ----------------- Responsive Media Queries ----------------- */
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+/* ----------------- Section 01: Header_Brand  ----------------- */
+
+.header_logo {
+    width: 70px;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+
+/* ----------------- Section 02: Header_Search  ----------------- */
+
+.header_search {
+    flex: 1;
+    border-radius: 10px;
+}
+
+.header_search>input {
+    width: 100%;
+    padding: 10px;
+    height: 10px;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 20px !important;
+}
+
+/* ----------------- Section 03: Header_Nav ----------------- */
+
+.header_navMain {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav_contentOne {
+    font-size: 8px;
+}
+
+.nav_contentTwo {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+a{
+   
+    font-size: 10px;
+}
+
+.nav_basketCount{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .header_logo {
+        width: 70px;
+        margin: 0 10px;
+        margin-top: 10px;
+    }
+    
+    
+    /* ----------------- Section 02: Header_Search  ----------------- */
+    
+    .header_search {
+        flex: 1;
+        border-radius: 10px;
+    }
+    
+    .header_search>input {
+        width: 100%;
+        padding: 10px;
+        height: 10px;
+    }
+    
+    .header_searchIcon {
+        padding: 5px;
+        height: 20px !important;
+    }
+    
+    /* ----------------- Section 03: Header_Nav ----------------- */
+    
+    .header_navMain {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .nav_contentOne {
+        font-size: 10px;
+    }
+    
+    .nav_contentTwo {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    a{
+        font-size: 12px;
+    }
+    
+    .nav_basketCount{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    
+}

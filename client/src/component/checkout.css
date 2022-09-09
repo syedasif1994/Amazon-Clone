@@ -1,0 +1,174 @@
+.checkout {
+    min-height: 75vh;
+}
+
+.checkout_container{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.checkout_left {
+width: 50%;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.checkout_title {
+    margin-right: 40px;
+    padding: 20px;
+    border-bottom: 2px solid red;
+}
+
+.checkout_right {
+    width: 50%;
+}
+
+.checkout_payment {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: fit-content;
+    margin: 5px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 3px solid #dddddd;
+    border-radius: 20px;
+    margin-left: 0px;
+    font-size: 1.5em;
+}
+
+
+.totalamount_btn {
+    background-color: yellow;
+    font-weight: bolder;
+    padding: 15px;
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.totalamount_btn:hover{
+    background-color: red;
+    border: 2px solid red;
+}
+
+.totalamount_btn a{
+    font-size: 2em;
+    width: 100%;
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .checkout_container{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    h4 {
+        font-size: 0.7em;
+    }
+
+    .checkout_title {
+        margin-right: 5px;
+        padding: 5px;
+    }
+
+    .checkout_payment {
+        padding: 5px;
+        font-size: 0.7em;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    .totalamount_btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 1em;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .checkout_container{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    .checkout_title {
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    .checkout_payment {
+        padding: 10px;
+        font-size: 0.9em;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .totalamount_btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1250px) {
+
+    .checkout_container{
+        margin: 15px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    .checkout_title {
+        margin-right: 20px;
+        padding: 20px;
+    }
+
+    .checkout_payment {
+        padding: 15px;
+        font-size: 1.2em;
+        border-radius: 15px;
+        width: 85%;
+    }
+
+    .totalamount_btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 1em;
+    }
+
+}

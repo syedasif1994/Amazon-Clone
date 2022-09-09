@@ -1,0 +1,47 @@
+.totalamount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.totalamount_gift {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.totalamount_gift>input {
+    margin-right: 10px;
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+    .totalamount {
+        margin-bottom: 5px;
+    }
+    .totalamount_gift>input {
+        margin-right: 5px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .totalamount {
+        margin-bottom: 10px;
+    }
+    .totalamount_gift>input {
+        margin-right: 5px;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1250px) {
+    .totalamount {
+        margin-bottom: 15px;
+    }
+    .totalamount_gift>input {
+        margin-right: 5px;
+    }
+}

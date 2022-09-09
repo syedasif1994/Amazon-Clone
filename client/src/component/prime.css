@@ -1,0 +1,514 @@
+.prime {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.prime_btn {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    width: 350px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+.prime_btn:hover {
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+/* -----------------------------Section 01: Prime Welcome ---------------------------------- */
+
+.prime_welcome {
+   display: flex;
+    margin-bottom: -120px;
+}
+
+.prime_welcome img {
+    width: 100%;
+    height: fit-content;
+}
+
+.prime_infoFree {
+    position: absolute;
+    width: 40%;
+    top: 250px;
+    left: 50px;
+    color: white;
+}
+
+.prime_infoFree h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.prime_infoFree h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.prime_infoFree p {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: normal;
+    margin-left: 50px;
+}
+
+/* -----------------------------Section 02: Prime Rent ---------------------------------- */
+
+.prime_welcomeBelow {
+   display: flex;
+   margin-bottom: -150px;
+}
+
+.prime_welcomeBelow img {
+    width: 100%;
+    height: fit-content;
+}
+
+.prime_infoRent {
+    position: absolute;
+    width: 40%;
+    top: 620px;
+    left: 50px;
+    color: white;
+}
+
+.prime_infoRent h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.prime_infoRent h4 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/* -----------------------------Section 03: Prime Fav ---------------------------------- */
+
+.prime_fav {
+    position: relative;
+    margin: 20px;
+}
+
+.Content {
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.favLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px;
+    padding: 40px;
+}
+
+.favLeft h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.favLeft p {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.favRight {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.prime_Box {
+    display: flex;
+}
+
+.prime_boxBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 18vh;
+    margin: 5px;
+    background-color: rgb(60, 27, 90);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.5),
+        5px 5px 5px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.prime_boxBody:hover {
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.5),
+        15px 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+
+    .prime_btn {
+        padding: 5px;
+        margin-top: 20px;
+        width: 200px;
+        font-size: 0.7em;
+    }
+
+    /* -----------------------------Section 01: Prime Welcome ---------------------------------- */
+
+
+    .prime_welcome {
+        position: relative;
+         margin-bottom:5px;
+     }
+     
+     .prime_welcome img {
+         width: 100%;
+         height: 50vh;
+     }
+     
+     .prime_infoFree {
+         position: absolute;
+         width: 60%;
+         top: 100px;
+         left: 10px;
+     }
+
+    .prime_infoFree h1 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .prime_infoFree h3 {
+        font-size: 1em;
+    }
+
+    .prime_infoFree p {
+        margin-top: 10px;
+        font-size: 0.7em;
+        margin-left: 10px;
+    }
+
+    /* -----------------------------Section 02: Prime Rent ---------------------------------- */
+
+    .prime_welcomeBelow {
+        position: relative;
+        margin-bottom:5px;
+    }
+
+    .prime_welcomeBelow img {
+        height: 50vh;
+    }
+
+    .prime_infoRent {
+        position: absolute;
+        width: 60%;
+         top: 100px;
+         left: 10px;
+    }
+
+    .prime_infoRent h2 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+
+    .prime_infoRent h4 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    /* -----------------------------Section 03: Prime Fav ---------------------------------- */
+    .prime_fav {
+        margin: 0px;
+    }
+
+    .Content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 80%;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .favLeft h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .favLeft p {
+        font-size: 1em;
+    }
+
+    .favRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .prime_boxBody {
+        font-size: 0.8em;
+        height: 10vh;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .prime_btn {
+        padding: 5px;
+        margin-top: 20px;
+        width: 220px;
+        font-size: 0.8em;
+    }
+
+    /* -----------------------------Section 01: Prime Welcome ---------------------------------- */
+
+
+    .prime_welcome {
+        position: relative;
+         margin-bottom:5px;
+     }
+     
+     .prime_welcome img {
+         width: 100%;
+         height: 50vh;
+     }
+     
+     .prime_infoFree {
+         position: absolute;
+         width: 50%;
+         top: 100px;
+         left: 20px;
+     }
+
+    .prime_infoFree h1 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .prime_infoFree h3 {
+        font-size: 1em;
+    }
+
+    .prime_infoFree p {
+        margin-top: 10px;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+
+    /* -----------------------------Section 02: Prime Rent ---------------------------------- */
+
+    .prime_welcomeBelow {
+        position: relative;
+        margin-bottom:5px;
+    }
+
+    .prime_welcomeBelow img {
+        width: 100%;
+         height: 50vh;
+    }
+
+    .prime_infoRent {
+        position: absolute;
+         width: 50%;
+         top: 80px;
+         left: 20px;
+    }
+
+    .prime_infoRent h2 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .prime_infoRent h4 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    /* -----------------------------Section 03: Prime Fav ---------------------------------- */
+    .prime_fav {
+        margin: 0px;
+    }
+
+    .Content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 80%;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .favLeft h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .favLeft p {
+        font-size: 1em;
+    }
+
+    .favRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .prime_boxBody {
+        font-size: 1em;
+        height: 12vh;
+    }
+  
+}
+
+@media (min-width:769px) and (max-width:1250px) {
+
+    .prime_btn {
+        padding: 5px;
+        margin-top: 20px;
+        width: 250px;
+        font-size: 1em;
+    }
+
+    /* -----------------------------Section 01: Prime Welcome ---------------------------------- */
+
+
+    .prime_welcome {
+        position: relative;
+         margin-bottom:-10px;
+     }
+     
+     .prime_welcome img {
+         width: 100%;
+         height: 40vh;
+     }
+     
+     .prime_infoFree {
+         position: absolute;
+         width: 50%;
+         top: 50px;
+         left: 20px;
+     }
+
+    .prime_infoFree h1 {
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    }
+
+    .prime_infoFree h3 {
+        font-size: 1.2em;
+    }
+
+    .prime_infoFree p {
+        margin-top: 10px;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+
+    /* -----------------------------Section 02: Prime Rent ---------------------------------- */
+
+    .prime_welcomeBelow {
+        position: relative;
+        margin-bottom:-10px;
+    }
+
+    .prime_welcomeBelow img {
+        width: 100%;
+         height: 40vh;
+    }
+
+    .prime_infoRent {
+        position: absolute;
+         width: 50%;
+         top: 50px;
+         left: 20px;
+    }
+
+    .prime_infoRent h2 {
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    }
+
+    .prime_infoRent h4 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    /* -----------------------------Section 03: Prime Fav ---------------------------------- */
+
+    .Content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .favLeft h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .favLeft p {
+        font-size: 1em;
+    }
+
+    .favRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .prime_boxBody {
+        font-size: 1.2em;
+        height: 15vh;
+    }
+}

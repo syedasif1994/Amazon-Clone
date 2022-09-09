@@ -1,0 +1,10 @@
+.orderlist{
+    min-height: 75vh;
+}
+
+.orderlist_container{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
